@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+
+# https://cmake.org/cmake/help/book/mastering-cmake/chapter/Finding%20Packages.html
+get_filename_component(HDLSTUFF_HAL_CONFIG_CMAKE "${CMAKE_CURRENT_LIST_FILE}" PATH)
+get_filename_component(HDLSTUFF_HAL_INSTALL_PREFIX "${HDLSTUFF_HAL_CONFIG_CMAKE}/../.." ABSOLUTE)
+
+include("${HDLSTUFF_HAL_INSTALL_PREFIX}/lib/hdlstuff_hal/hdlstuff_hal-targets.cmake")
