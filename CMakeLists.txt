@@ -34,7 +34,7 @@ install(
 
 install(
     EXPORT hdlstuff_hal-targets
-    NAMESPACE hdlstuff_hal::
+    NAMESPACE hdlstuff::
     DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hdlstuff_hal"
     COMPONENT dev
 )

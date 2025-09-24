@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <hdlstuff-hal/hal.hpp>
+#include <hdlstuff_hal/hal.hpp>
 
 namespace hdlstuff::hal {
 
